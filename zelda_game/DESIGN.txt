@@ -1,0 +1,14 @@
+p1_studio 29 - The Legend of Zelda: DESIGN.txt
+
+"What is the pitch for your custom mechanic?": Our custom mechanic is that the player's weapon is now an orbiting boomerang. In order to aim at enemies with this boomerang, the player must move their character to adjust this orbit. This boomerang also acts as a shield while orbiting, destroying enemy projectiles it comes into contact with.
+
+"What is the pitch for your custom level?": Our custom level is crafted to make use of the new abilities of the orbiting boomerang weapon. Targets are purposefully placed out of the range of the standard boomerang arc but within the custom boomerang orbit. Enemies shoot masses of projectiles akin to a bullet-hell, encouraging the player to use the projectile-destroying boomerang property to create safe spots and avoid damage.
+
+"How does your new mechanic / custom level change the way the game is played?": Moving the player character adjusts the orbit of the boomerang, so our mechanic more deeply connects character positioning to the player's offensive and defensive ability. When intending to attack a particular target, the player is no longer concerned about finding a path where their character can access the target--instead the player looks for where there is enough space to move such that they can form a boomerang orbit that intersects with the enemy.
+
+"What new interesting decisions does your new mechanic / custom level bring about?": By linking the player character's movement to their only weapon, attacking is no longer a simple button press with near-instant results. Attacking with the custom boomerang requires the player to observe, predict, and correct the orbit of the boomerang over the course of several seconds. The boomerang's current orbit is the direct result of the last several seconds of the player's movement and so player positioning gains greater long-term consequence in the gameplay.
+
+"How do you explain the new mechanic to the player (or make its utility obvious) while they are playing without using a bunch of clumsy text?": As our custom mechanic relies upon the player moving after throwing the boomerang, so we summon a piston to forcefully push the player when they first throw the boomerang. This push means all players can observe the orbit, including players who didn't give an movement input immediately after the throw. We then follow an escalating room progression where the player learns their boomerang can be used to hit diagonal or far away targets in a safe environment, then in a timed environment, and finally against dangerous enemies.
+
+Oliver Pardi (pardio)'s Portfolio: https://pardio1.github.io/
+Zheng Luo (louz)'s Portfolio: https://LuoZheng2002.github.io/zelda_game
