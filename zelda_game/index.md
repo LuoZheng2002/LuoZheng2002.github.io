@@ -4,7 +4,7 @@
 
 [Download the game!](https://LuoZheng2002.github.io/zelda_game/zelda_game.zip "Download zelda_game.zip")
 
-[DESIGN.txt](https://LuoZheng2002.github.io/zelda_game/DESIGN.txt "Download DESIGN.txt")
+[DESIGN.txt](https://luozheng2002.github.io/zelda_game/DESIGN.txt "Download DESIGN.txt")
 
 ## We used Unity and C# programming language to develop this game.
 

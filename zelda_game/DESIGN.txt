@@ -11,4 +11,4 @@ p1_studio 29 - The Legend of Zelda: DESIGN.txt
 "How do you explain the new mechanic to the player (or make its utility obvious) while they are playing without using a bunch of clumsy text?": As our custom mechanic relies upon the player moving after throwing the boomerang, so we summon a piston to forcefully push the player when they first throw the boomerang. This push means all players can observe the orbit, including players who didn't give an movement input immediately after the throw. We then follow an escalating room progression where the player learns their boomerang can be used to hit diagonal or far away targets in a safe environment, then in a timed environment, and finally against dangerous enemies.
 
 Oliver Pardi (pardio)'s Portfolio: https://pardio1.github.io/
-Zheng Luo (louz)'s Portfolio: https://LuoZheng2002.github.io/zelda_game
+Zheng Luo (louz)'s Portfolio: https://luozheng2002.github.io/zelda_game
