@@ -2,6 +2,8 @@
 
 ## The Legend of Zelda NES Version with Custom Feature (Press 4 to toggle)
 
+[Play Online!](https://luozheng2002.itch.io/custom-zelda "play online")
+
 [Download the game!](https://LuoZheng2002.github.io/zelda_game/zelda_game.zip "Download zelda_game.zip")
 
 [DESIGN.txt](https://luozheng2002.github.io/zelda_game/DESIGN.txt "Download DESIGN.txt")
