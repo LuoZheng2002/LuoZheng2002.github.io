@@ -4,3 +4,5 @@
 [Zelda Game for Game Development Course](zelda_game/index.md)
 
 [Crafty Piggies 3D for Game Development Course](crafty_piggies/index.md)
+
+[Transcribed Piano Sheets](piano_sheets/index.md)
