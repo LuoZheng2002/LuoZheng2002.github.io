@@ -2,7 +2,7 @@
 
 [Paper Submitted: "Predicting the Transfer Intentions of Specialist Nurses through Machine Learning"](machine_learning_paper/index.md)
 
-[Thoughts on explicit and explainable AI](https://glassboxwisdom.com/)
+[Thoughts on explicit and explainable AI](glassboxwisdom.com)
 
 [Research Projec Proposal for a "Backboned" Explainable AI](proposal/index.md)
 
