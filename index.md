@@ -1,3 +1,5 @@
+[SJTU Undergraduate Capstone Project (毕业设计)](capstone/index.md)
+
 [Crafty Piggies 3D for Game Development Course](crafty_piggies/index.md)
 
 [Paper Submitted: "Predicting the Transfer Intentions of Specialist Nurses through Machine Learning"](machine_learning_paper/index.md)
