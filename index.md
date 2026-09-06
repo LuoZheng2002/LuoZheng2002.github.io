@@ -13,3 +13,5 @@
 
 
 [Transcribed Piano Sheets](piano_sheets/index.md)
+
+[Transcripts and TOEFL Score](transcripts/index.md)
