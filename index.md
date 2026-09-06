@@ -15,3 +15,5 @@
 [Transcribed Piano Sheets](piano_sheets/index.md)
 
 [Transcripts and TOEFL Score](transcripts/index.md)
+
+<a href="https://LuoZheng2002.github.io/resume_general.pdf" download>Resume</a>
