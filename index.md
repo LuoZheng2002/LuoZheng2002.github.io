@@ -2,7 +2,7 @@
 
 [Crafty Piggies 3D for Game Development Course](crafty_piggies/index.md)
 
-[Paper Submitted: "Predicting the Transfer Intentions of Specialist Nurses through Machine Learning"](machine_learning_paper/index.md)
+[Paper Published or Under Review](papers/index.md)
 
 [Thoughts on explicit and explainable AI](glassboxwisdom.com)
 
