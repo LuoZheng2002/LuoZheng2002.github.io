@@ -1,8 +1,14 @@
+![Zheng Luo](zheng_luo.jpg)
+
+Computer Science (Artificial Intelligence) Master's student in USC
+
+Research Interest: LLM, agentic system, reinforcement learning, rule-based AI
+
+[Paper Published or Under Review](papers/index.md)
+
 [SJTU Undergraduate Capstone Project (毕业设计)](capstone/index.md)
 
 [Crafty Piggies 3D for Game Development Course](crafty_piggies/index.md)
-
-[Paper Published or Under Review](papers/index.md)
 
 [Thoughts on explicit and explainable AI](glassboxwisdom.com)
 
