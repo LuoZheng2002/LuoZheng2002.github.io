@@ -1,3 +1,7 @@
+---
+layout: null
+title: ""
+---
 <link rel="stylesheet" href="../site.css">
 <p><a class="back-button" href="../">Back to home</a></p>
 
