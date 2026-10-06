@@ -1,234 +1,42 @@
-<style>
-  :root {
-    --text: #1f2933;
-    --muted: #52616f;
-    --line: #d9e2ec;
-    --surface: #f7f9fb;
-    --accent: #235789;
-    --accent-dark: #173f5f;
-  }
+<link rel="stylesheet" href="site.css">
 
-  body {
-    color: var(--text);
-    background: linear-gradient(180deg, #ffffff 0%, #f6f8fb 100%);
-  }
+<nav class="site-nav" aria-label="Primary navigation"><div class="site-nav-inner"><a class="brand" href="#top">Zheng Luo</a><ul class="site-nav-links"><li><a href="#research">Research</a></li><li><a href="#publications">Publications</a></li><li><a href="#projects">Projects</a></li><li><a href="#materials">Materials</a></li><li><a href="#hobbies">Hobbies</a></li><li><a href="#skills">Skills</a></li></ul></div></nav>
 
-  .home {
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 32px 20px 56px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    line-height: 1.65;
-  }
+<main class="home" id="top">
+<section class="hero" aria-labelledby="home-heading"><div><p class="eyebrow">Computer Science · Artificial Intelligence</p><h1 id="home-heading">Zheng Luo</h1><p class="hero-lead">I am currently a Master's student at the University of Southern California majoring in Computer Science (Artificial Intelligence). I am supervised by <a href="https://xiyanghu.github.io/">Prof. Xiyang Hu</a> from ASU and <a href="https://viterbi-web.usc.edu/~yzhao010/">Prof. Yue Zhao</a> from USC in LLM research.</p><p>I earned my bachelor's degree from Shanghai Jiao Tong University (UM-SJTU Joint Institute), where I majored in Electrical and Computer Engineering, and the University of Michigan, where I majored in Computer Science.</p><div class="hero-links"><a href="resume_general.pdf" download>CV / Resume</a><a href="mailto:luozheng@usc.edu">luozheng@usc.edu</a><a href="#transcripts">Transcripts</a></div><ul class="interest-list"><li>LLMs</li><li>Agentic Systems</li><li>Reinforcement Learning</li><li>Multimodal Generation</li><li>Explainable AI</li></ul></div><div class="portrait-wrap"><img class="portrait" src="zheng_luo.jpg" alt="Portrait of Zheng Luo"></div></section>
 
-  .hero {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 240px;
-    gap: 40px;
-    align-items: center;
-    padding: 28px 0 34px;
-    border-bottom: 1px solid var(--line);
-  }
+<section class="section" id="research" aria-labelledby="research-heading"><h2 class="section-heading" id="research-heading">Research Interest</h2><div class="section-intro"><p>My long-term research interest can be summarized as general intelligence like LLMs that are more efficient, more reliable, more predictable, and more "logically beautiful." I envision an eventual paradigm that addresses structural limitations of the traditional connectionist paradigm, such as data hunger and limited safety guarantees, by making bold sacrifices including much more manual effort alongside automatic learning.</p><p>This is a difficult long-term direction that may require years of trial and error. For my Ph.D. studies, I am therefore open to theoretical AI directions, especially LLM training and fine-tuning, multimodal generative models, and approaches that make learning systems more understandable and dependable.</p><p><a href="detailed_research_interest/">Detailed Research Interest</a> · <a href="ai_field_understanding/">My Preliminary Understanding of Current General Purpose AI Field</a> · <a href="long_term_research_plan/">Long-Term Research Plan</a> · <a href="short_term_research_plan/">Short-Term Research Plan</a></p></div></section>
 
-  .eyebrow {
-    margin: 0 0 8px;
-    color: var(--accent);
-    font-size: 0.82rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
+<section class="section" id="publications" aria-labelledby="publications-heading"><h2 class="section-heading" id="publications-heading">Publications and Research Experiences</h2><div class="paper-list">
+<article class="paper"><img class="paper-thumb" src="zheng_luo.jpg" alt="Placeholder thumbnail"><div><h3 class="paper-title">Lost in Execution: On the Multilingual Robustness of Tool Calling in Large Language Models</h3><p class="paper-meta"><a href="papers/lost_in_execution.pdf" download>Download paper</a> · <a href="https://aclanthology.org/2026.acl-long.2039/">Venue page</a></p><details><summary>Project description</summary><p>Placeholder description: this project investigates how language affects the reliability of tool-calling behavior in large language models.</p><img class="detail-image" src="zheng_luo.jpg" alt="Placeholder detail image"></details></div></article>
+<article class="paper"><img class="paper-thumb" src="zheng_luo.jpg" alt="Placeholder thumbnail"><div><h3 class="paper-title">TreeMPO: Fine-Grained Credit Assignment for LLM Training via Token-Level Trajectory Branching</h3><p class="paper-meta"><a href="papers/treempo.pdf" download>Download paper</a></p><details><summary>Project description</summary><p>Placeholder description: this project studies fine-grained credit assignment for LLM training through token-level trajectory branching.</p><img class="detail-image" src="zheng_luo.jpg" alt="Placeholder detail image"></details></div></article>
+<article class="paper"><img class="paper-thumb" src="zheng_luo.jpg" alt="Placeholder thumbnail"><div><h3 class="paper-title">Street-Level Competitive Ride-Hailing with Fixed-Rival Defensive PSRO</h3><p class="paper-meta"><a href="papers/street_level.pdf" download>Download paper</a></p><details><summary>Project description</summary><p>Placeholder description: this project explores competitive ride-hailing policies with fixed-rival defensive policy-space response oracles.</p><img class="detail-image" src="zheng_luo.jpg" alt="Placeholder detail image"></details></div></article>
+<article class="paper"><img class="paper-thumb" src="zheng_luo.jpg" alt="Placeholder thumbnail"><div><h3 class="paper-title">Fairness or Fluency? An Investigation into Language Bias of Pairwise LLM-as-a-Judge</h3><p class="paper-meta"><a href="papers/fairness_or_fluency.pdf" download>Download paper</a></p><details><summary>Project description</summary><p>Placeholder description: this project examines whether pairwise LLM-as-a-judge evaluations trade off linguistic fluency against fair comparison.</p><img class="detail-image" src="zheng_luo.jpg" alt="Placeholder detail image"></details></div></article>
+<article class="paper"><img class="paper-thumb" src="zheng_luo.jpg" alt="Placeholder thumbnail"><div><h3 class="paper-title">When Simulation Lies: A Sim-to-Real Benchmark and Domain-Randomized RL Recipe for Tool-Use Agents</h3><p class="paper-meta"><a href="papers/sim_2_real.pdf" download>Download paper</a> · <a href="https://arxiv.org/abs/2605.11928">arXiv page</a></p><details><summary>Project description</summary><p>Placeholder description: this project studies the gap between simulated and real tool-use environments and proposes a benchmark and domain-randomized reinforcement-learning recipe.</p><img class="detail-image" src="zheng_luo.jpg" alt="Placeholder detail image"></details></div></article>
+<article class="paper"><img class="paper-thumb" src="zheng_luo.jpg" alt="Placeholder thumbnail"><div><h3 class="paper-title">SkiLT: What Agent Reinforcement Learning Actually Learns from a Latent Skill Library</h3><p class="paper-meta"><a href="papers/latent_skill.pdf" download>Download paper</a></p><details><summary>Project description</summary><p>Placeholder description: this project investigates what agent reinforcement learning learns when it is given access to a library of latent skills.</p><img class="detail-image" src="zheng_luo.jpg" alt="Placeholder detail image"></details></div></article>
+</div></section>
 
-  .hero h1 {
-    margin: 0;
-    color: #102a43;
-    font-size: clamp(2.25rem, 5vw, 3.6rem);
-    font-weight: 750;
-    line-height: 1.05;
-  }
+<section class="section" id="projects" aria-labelledby="projects-heading"><h2 class="section-heading" id="projects-heading">Project Experiences</h2><div class="project-list">
+<article class="project"><h3>Crafty Piggies 3D Game Development</h3><p><a href="https://luozheng2002.itch.io/crafty-piggies-gold">Play the game on Windows and Mac</a></p><div class="media-row"><div><iframe class="media-frame" src="https://www.youtube.com/embed/zd16g53LavQ" title="Crafty Piggies 3D Game Trailer" loading="lazy" allowfullscreen></iframe><p class="muted">Game Trailer</p></div><div><iframe class="media-frame" src="https://www.youtube.com/embed/FIf5dbHN1ss" title="Crafty Piggies 3D Demo Day Trailer Reaction" loading="lazy" allowfullscreen></iframe><p class="muted">Demo Day Trailer Reaction</p></div></div><p>"Crafty Piggies 3D" is a physics-based 3D game that allows players to build customized vehicles through a grid-based system and control their vehicles to solve puzzles and reach destinations. It combines the grid-based building of <em>Bad Piggies</em> with the open-world storytelling ambitions of <em>Genshin Impact</em>. This was a University of Michigan capstone project with Yikai Li, Gabriel Froehner, and Javier Guerrero, instructed by Prof. Austin Yarger.</p></article>
+<article class="project"><h3>Table Tennis Feeding Machine</h3><div class="media-row"><iframe class="media-frame" src="https://www.youtube.com/embed/Eg9H1ohUx7M" title="Table Tennis Feeding Machine demonstration" loading="lazy" allowfullscreen></iframe><iframe class="media-frame" src="https://www.youtube.com/embed/D8YpBVKRTdU" title="Table Tennis Feeding Machine demonstration two" loading="lazy" allowfullscreen></iframe></div><p>This Embedded Systems course project features an omniwheel vehicle topped with a handmade pinch roller that feeds table tennis balls. It can move and rotate freely, adjust launching angle and speed, and control spin. The pinch roller uses a 3D-printed barrel and two independently spinning brushless motors, with stepper motors controlling pitch angle and launch triggering.</p></article>
+<article class="project"><h3>"Defend the Republic" Autonomous Blimp Competition</h3><iframe class="media-frame" src="https://www.youtube.com/embed/CUvsu1nkoa8" title="Defend the Republic autonomous blimp competition" loading="lazy" allowfullscreen></iframe><p>This competition involved building a floating blimp that could collect balloons in the air and transport them to a goal. I learned about rule-based control algorithms such as PID control and the feasibility of using embedded-system-powered YOLO for object detection.</p></article>
+</div></section>
 
-  .subtitle {
-    margin: 16px 0 0;
-    color: var(--muted);
-    font-size: 1.08rem;
-    max-width: 650px;
-  }
+<section class="section" id="materials" aria-labelledby="materials-heading"><h2 class="section-heading" id="materials-heading">Additional Materials</h2><div class="project-list">
+<article class="project"><h3>Automatic PCB Routing Using Discrete Bayesian Inference</h3><p>My SJTU undergraduate capstone project, advised by Prof. An Zou, with Xiaomi Zhou, Run Gan, and Qixuan Chen.</p><p><a href="capstone/paper.pdf">Thesis</a> · <a href="capstone/installer.msi">Windows installer</a> · <a href="https://github.com/LuoZheng2002/bayesian_router_pro_max">Git repository</a></p></article>
+<article class="project"><h3>The Legend of Zelda NES Version with Custom Feature</h3><p>A Unity and C# game project developed with Oliver Pardi. My work included player and enemy behaviors, the weapon system, inventory and animation, plus a custom boomerang, room-transition animations, the ender crystal enemy, and the boss dragon.</p><p><a href="https://luozheng2002.itch.io/custom-zelda">Play online</a> · <a href="zelda_game/zelda_game.zip">Download the game</a> · <a href="zelda_game/DESIGN.txt">Design notes</a></p></article>
+<article class="project"><h3>Predicting the Transfer Intentions of Specialist Nurses through Machine Learning</h3><p>A machine-learning paper submitted as an additional research project.</p><p><a href="machine_learning_paper/paper_submitted.docx" download>Download submitted paper</a></p></article>
+<article class="project"><h3>A Reassuring "Mechanical" AI Built Upon Transparent Logic</h3><p>A research proposal for a transparent, rule-based AI that uses small-scale machine learning where intuition is needed, then verifies solutions through explicit strategies and user-visible reasoning.</p><p><a href="proposal/index2.md">Read the earlier proposal draft</a></p></article>
+</div></section>
 
-  .interests {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 22px 0 0;
-    padding: 0;
-    list-style: none;
-  }
+<section class="section" id="hobbies" aria-labelledby="hobbies-heading"><h2 class="section-heading" id="hobbies-heading">Personal Hobbies</h2><div class="project-list">
+<article class="project"><h3>AI Short Play Making</h3><p><a href="https://www.youtube.com/watch?v=ATH4GIfw3lE">Watch the AI short play</a></p><p>An AI short play depicting a parallel world where humans believe they invented LLMs, while intelligent words are actually synthesized by aliens. It playfully reflects on how difficult it is to know why a deep learning method works before seeing its experimental results.</p></article>
+<article class="project"><h3>Game Engine Development</h3><p>I contributed to the <a href="https://github.com/FyroxEngine/Fyrox">Fyrox game engine</a>, including exposing physics-related APIs from downstream dependencies and miscellaneous refactoring and cleanup. I aim to build my own game engine from scratch, with the possibility of developing a game-engine-development skill for AI agents.</p><div class="gif-row"><img src="gifs/fyrox.gif" alt="Fyrox game engine physics test"></div></article>
+<article class="project"><h3>Personal Music Box Project</h3><div class="media-row"><div><iframe class="media-frame" src="https://www.youtube.com/embed/2swCZ2V19NA" title="Music box appearance and internals" loading="lazy" allowfullscreen></iframe><p class="muted">Appearance and Internals Display</p></div><div><iframe class="media-frame" src="https://www.youtube.com/embed/g1gPUi-Pj-o" title="Music box functionality demo" loading="lazy" allowfullscreen></iframe><p class="muted">Functionality Demo</p></div></div><p>This personal music box can play music, emit lights, spin, and play a sound effect after the power is fully turned off. I gained experience with PCB milling, 3D printing, and laser cutting.</p><div class="gif-row"><img src="gifs/milling.gif" alt="PCB milling process"><img src="gifs/printing.gif" alt="3D printing process"><img src="gifs/laser.gif" alt="Laser cutting process"></div></article>
+<article class="project"><h3>Piano Sheet Transcribing</h3><p>I transcribed piano pieces whose sheets were unavailable online or not faithful to the original score, with the aid of <a href="https://lunaverus.com/">AnthemScore</a>. <a href="https://www.bilibili.com/video/BV13g4y117nS">Watch a video example</a>.</p><div class="resource-list" id="piano-sheets"><details><summary>Transcribed piano sheets</summary><p><a href="piano_sheets/river_flows_in_you.pdf">River Flows In You PDF</a><a href="piano_sheets/river_flows_in_you.musicxml">MusicXML</a><a href="piano_sheets/river_flows_in_you.mscz">MuseScore</a></p><p><a href="piano_sheets/melody13.pdf">Melody of the Night No.13 PDF</a><a href="piano_sheets/melody13.musicxml">MusicXML</a><a href="piano_sheets/melody13.mscz">MuseScore</a></p><p><a href="piano_sheets/evening_readings.pdf">Evening Readings PDF</a><a href="piano_sheets/evening_readings.musicxml">MusicXML</a><a href="piano_sheets/evening_readings.mscz">MuseScore</a></p><p><a href="piano_sheets/once_upon_a_memory.pdf">Once Upon a Memory PDF</a><a href="piano_sheets/once_upon_a_memory.musicxml">MusicXML</a><a href="piano_sheets/once_upon_a_memory.mscz">MuseScore</a></p></details></div></article>
+</div></section>
 
-  .interests li {
-    padding: 5px 10px;
-    border: 1px solid #c7d8ea;
-    border-radius: 999px;
-    color: var(--accent-dark);
-    background: #f2f7fc;
-    font-size: 0.88rem;
-    font-weight: 600;
-  }
+<section class="section" id="transcripts" aria-labelledby="transcripts-heading"><h2 class="section-heading" id="transcripts-heading">Transcripts and Scores</h2><div class="resource-list"><details><summary>Open transcript and TOEFL downloads</summary><p><a href="transcripts/SJTU_transcript.pdf" download>SJTU Transcript</a></p><p><a href="transcripts/um_transcript.pdf" download>University of Michigan Transcript</a></p><p><a href="transcripts/usc_unofficial.pdf" download>USC Transcript</a></p><p><a href="transcripts/toefl_score.pdf" download>TOEFL Score</a></p></details></div></section>
 
-  .portrait-wrap {
-    justify-self: end;
-    width: min(240px, 42vw);
-  }
-
-  .portrait {
-    display: block;
-    width: 100%;
-    aspect-ratio: 1 / 1.12;
-    object-fit: cover;
-    object-position: center 18%;
-    border: 1px solid #c8d2dc;
-    border-radius: 10px;
-    box-shadow: 0 16px 38px rgba(16, 42, 67, 0.16);
-    background: #ffffff;
-  }
-
-  .content-section {
-    padding: 30px 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .content-section:last-child {
-    border-bottom: 0;
-  }
-
-  .section-heading {
-    margin: 0 0 18px;
-    color: #102a43;
-    font-size: 1.45rem;
-    line-height: 1.25;
-  }
-
-  .papers {
-    display: grid;
-    gap: 12px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .papers li {
-    padding: 14px 16px;
-    border-left: 3px solid var(--accent);
-    background: rgba(255, 255, 255, 0.78);
-    box-shadow: 0 1px 0 rgba(16, 42, 67, 0.08);
-  }
-
-  a {
-    color: var(--accent);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
-  }
-
-  a:hover {
-    color: var(--accent-dark);
-  }
-
-  .link-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .link-grid a {
-    display: block;
-    min-height: 100%;
-    padding: 13px 15px;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    background: #ffffff;
-    color: #1f4e79;
-    font-weight: 650;
-    text-decoration: none;
-    box-shadow: 0 1px 2px rgba(16, 42, 67, 0.05);
-    transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
-  }
-
-  .link-grid a:hover {
-    border-color: #9fb9d3;
-    box-shadow: 0 8px 20px rgba(16, 42, 67, 0.09);
-    transform: translateY(-1px);
-  }
-
-  @media (max-width: 720px) {
-    .home {
-      padding: 24px 16px 42px;
-    }
-
-    .hero {
-      grid-template-columns: 1fr;
-      gap: 24px;
-      padding-top: 16px;
-    }
-
-    .portrait-wrap {
-      justify-self: start;
-      width: min(210px, 62vw);
-      order: -1;
-    }
-
-    .link-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
-
-<main class="home">
-  <section class="hero">
-    <div>
-      <p class="eyebrow">Computer Science · Artificial Intelligence</p>
-      <h1>Zheng Luo</h1>
-      <p class="subtitle">
-        Master's student at USC working on large language models, agentic systems,
-        reinforcement learning, and explicit, explainable AI.
-      </p>
-      <ul class="interests" aria-label="Research interests">
-        <li>LLM</li>
-        <li>Agentic Systems</li>
-        <li>Reinforcement Learning</li>
-        <li>Rule-Based AI</li>
-        <li>Explainable AI</li>
-      </ul>
-    </div>
-    <div class="portrait-wrap">
-      <img class="portrait" src="zheng_luo.jpg" alt="Portrait of Zheng Luo">
-    </div>
-  </section>
-
-  <section class="content-section" aria-labelledby="papers-heading">
-    <h2 id="papers-heading" class="section-heading">Papers Published or Under Review</h2>
-    <ul class="papers">
-      <li><a href="papers/treempo.pdf" title="download">TreeMPO: Fine-Grained Credit Assignment for LLM Training via Token-Level Trajectory Branching</a></li>
-      <li><a href="https://aclanthology.org/2026.acl-long.2039/" title="link">Lost in Execution: On the Multilingual Robustness of Tool Calling in Large Language Models</a></li>
-      <li><a href="papers/street_level.pdf" title="download">Street-Level Competitive Ride-Hailing with Fixed-Rival Defensive PSRO</a></li>
-      <li><a href="papers/fairness_or_fluency.pdf" title="download">Fairness or Fluency? An Investigation into Language Bias of Pairwise LLM-as-a-Judge</a></li>
-      <li><a href="https://arxiv.org/abs/2605.11928" title="link">When Simulation Lies: A Sim-to-Real Benchmark and Domain-Randomized RL Recipe for Tool-Use Agents</a></li>
-      <li><a href="papers/latent_skill.pdf" title="download">SkiLT: What Agent Reinforcement Learning Actually Learns from a Latent Skill Library</a></li>
-      <li><a href="machine_learning_paper/paper_submitted.docx" title="download">Predicting the Transfer Intentions of Specialist Nurses through Machine Learning</a></li>
-    </ul>
-  </section>
-
-  <section class="content-section" aria-labelledby="projects-heading">
-    <h2 id="projects-heading" class="section-heading">Projects and Materials</h2>
-    <ul class="link-grid">
-      <li><a href="capstone/index.md">SJTU Undergraduate Capstone Project (毕业设计)</a></li>
-      <li><a href="crafty_piggies/index.md">Crafty Piggies 3D for Game Development Course</a></li>
-      <li><a href="https://glassboxwisdom.com/">Thoughts on Explicit and Explainable AI</a></li>
-      <li><a href="proposal/index.md">Research Project Proposal for a "Backboned" Explainable AI</a></li>
-      <li><a href="zelda_game/index.md">Zelda Game for Game Development Course</a></li>
-      <li><a href="piano_sheets/index.md">Transcribed Piano Sheets</a></li>
-      <li><a href="transcripts/index.md">Transcripts and TOEFL Score</a></li>
-      <li><a href="resume_general.pdf" download>Resume</a></li>
-    </ul>
-  </section>
-</main>
+<section class="section" id="skills" aria-labelledby="skills-heading"><h2 class="section-heading" id="skills-heading">Skills</h2><div class="skills"><div class="skill-group"><h3>Programming Languages</h3><ul class="skill-list"><li>Python</li><li>Rust</li><li>C++</li><li>C#</li><li>TypeScript</li></ul></div><div class="skill-group"><h3>Machine Learning</h3><ul class="skill-list"><li>PyTorch</li><li>Scikit-learn</li><li>LoRA fine-tuning</li><li>Model evaluation</li><li>Ablation studies</li></ul></div><div class="skill-group"><h3>Software and Infrastructure</h3><ul class="skill-list"><li>Git</li><li>Docker</li><li>Slurm / HPC</li><li>Apptainer</li><li>Linux</li></ul></div><div class="skill-group"><h3>Simulation and Graphics</h3><ul class="skill-list"><li>SUMO</li><li>Unity</li><li>Unreal Engine 5</li><li>Fyrox</li><li>Blender</li></ul></div></div></section>
+</main><footer class="site-footer">© Zheng Luo · <a href="mailto:luozheng@usc.edu">Contact</a></footer>

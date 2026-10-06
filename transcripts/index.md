@@ -1,9 +1,6 @@
+<link rel="stylesheet" href="../site.css">
+<p><a class="back-button" href="../">Back to home</a></p>
+
 # Transcripts and TOEFL Score
 
-<a href="https://LuoZheng2002.github.io/transcripts/SJTU_transcript.pdf" download>SJTU Transcript</a>
-
-<a href="https://LuoZheng2002.github.io/transcripts/um_transcript.pdf" download>University of Michigan Transcript</a>
-
-<a href="https://LuoZheng2002.github.io/transcripts/usc_unofficial.pdf" download>USC Transcript</a>
-
-<a href="https://LuoZheng2002.github.io/transcripts/toefl_score.pdf" download>TOEFL Score</a>
+The transcript downloads are now available in the [Transcripts and Scores section on the home page](../#transcripts).

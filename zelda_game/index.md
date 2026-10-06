@@ -1,19 +1,10 @@
-# Zheng Luo's Zelda Game (developed together with Oliver Pardi) for EECS494
+<link rel="stylesheet" href="../site.css">
+<p><a class="back-button" href="../">Back to home</a></p>
 
-## The Legend of Zelda NES Version with Custom Feature (Press 4 to toggle)
+# Zelda Game
 
-[Play Online!](https://luozheng2002.itch.io/custom-zelda "play online")
+This project has been moved to the home page. The downloadable game and design notes remain available in this directory.
 
-[Download the game!](https://LuoZheng2002.github.io/zelda_game/zelda_game.zip "Download zelda_game.zip")
-
-[DESIGN.txt](https://luozheng2002.github.io/zelda_game/DESIGN.txt "Download DESIGN.txt")
-
-## We used Unity and C# programming language to develop this game.
-
-## My role on the project:
-
-### Classic Game: 
-I was responsible for implementing player and enemy behaviors, weapon system, inventory and animation.
-
-### Custom Feature:
-I implemented the custom boomerang logic, created short animations to describe the context and transitions between rooms, and implemented the ender crystal enemy and the boss dragon.
+- [Play online](https://luozheng2002.itch.io/custom-zelda)
+- [Download the game](zelda_game.zip)
+- [Design notes](DESIGN.txt)

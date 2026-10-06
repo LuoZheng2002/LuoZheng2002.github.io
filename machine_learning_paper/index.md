@@ -1,3 +1,6 @@
-# "Predicting the Transfer Intentions of Specialist Nurses through Machine Learning"
+<link rel="stylesheet" href="../site.css">
+<p><a class="back-button" href="../">Back to home</a></p>
 
-[Download](https://LuoZheng2002.github.io/machine_learning_paper/paper_submitted.docx "download")
+# Machine Learning Paper
+
+This material has been moved to the [home page](../). The submitted paper remains available as a [download](paper_submitted.docx).

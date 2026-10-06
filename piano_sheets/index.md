@@ -1,27 +1,6 @@
-# River Flows In You
-[PDF](https://LuoZheng2002.github.io/piano_sheets/river_flows_in_you.pdf "Download PDF")
+<link rel="stylesheet" href="../site.css">
+<p><a class="back-button" href="../">Back to home</a></p>
 
-[MusicXML](https://LuoZheng2002.github.io/piano_sheets/river_flows_in_you.musicxml "Download MusicXML")
+# Piano Sheets
 
-[MuseScore](https://LuoZheng2002.github.io/piano_sheets/river_flows_in_you.mscz "Download MuseScore Format")
-
-# Melody of the Night No.13
-[PDF](https://LuoZheng2002.github.io/piano_sheets/melody13.pdf "Download PDF")
-
-[MusicXML](https://LuoZheng2002.github.io/piano_sheets/melody13.musicxml "Download MusicXML")
-
-[MuseScore](https://LuoZheng2002.github.io/piano_sheets/melody13.mscz "Download MuseScore Format")
-
-# Evening Readings (A Bird Story OST)
-[PDF](https://LuoZheng2002.github.io/piano_sheets/evening_readings.pdf "Download PDF")
-
-[MusicXML](https://LuoZheng2002.github.io/piano_sheets/evening_readings.musicxml "Download MusicXML")
-
-[MuseScore](https://LuoZheng2002.github.io/piano_sheets/evening_readings.mscz "Download MuseScore Format")
-
-# Once Upon a Memory (To the Moon OST)
-[PDF](https://LuoZheng2002.github.io/piano_sheets/once_upon_a_memory.pdf "Download PDF")
-
-[MusicXML](https://LuoZheng2002.github.io/piano_sheets/once_upon_a_memory.musicxml "Download MusicXML")
-
-[MuseScore](https://LuoZheng2002.github.io/piano_sheets/once_upon_a_memory.mscz "Download MuseScore Format")
+The transcribed piano sheets are now listed in the [Personal Hobbies section on the home page](../#piano-sheets).

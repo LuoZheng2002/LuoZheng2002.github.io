@@ -1,5 +1,8 @@
-# Zheng Luo's Crafty Piggies 3D for EECS494
+<link rel="stylesheet" href="../site.css">
+<p><a class="back-button" href="../">Back to home</a></p>
 
-[Trailer and Download](https://luozheng2002.itch.io/crafty-piggies-gold "trailer and download")
+# Crafty Piggies 3D
 
-## We used Unity and C# programming language to develop this game.
+This project has been moved to the [Project Experiences section on the home page](../#projects).
+
+[Play the game on Windows and Mac](https://luozheng2002.itch.io/crafty-piggies-gold)

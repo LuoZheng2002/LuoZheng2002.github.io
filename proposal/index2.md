@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="../site.css">
+<p><a class="back-button" href="../">Back to home</a></p>
+
 # Towards "Backboned" AI: an Essentially Rule-Based AI with Minimum Data Training and Lots of Human Effort
 
 ## Introduction
