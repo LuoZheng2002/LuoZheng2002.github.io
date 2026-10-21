@@ -7,7 +7,7 @@ Zheng Luo
 
 I am currently a Master's student at University of Southern California majoring in Computer Science (Artificial Intelligence). I am supervised by Prof. Xiyang Hu (include link https://xiyanghu.github.io/) from ASU and Prof. Yue Zhao (include link https://viterbi-web.usc.edu/~yzhao010/) from USC in LLM research. I earned my bachelor's degree from Shanghai Jiao Tong University (UM-SJTU Joint Institute) where I majored in Electrical and Computer Engineering and the University of Michigan where I majored in Computer Science.
 
-CV (link to the resume_general.pdf file)
+CV (link to the cv_general.pdf file)
 
 Transcripts (dropdown box containing all transcripts files currently in transcripts folder)
 
